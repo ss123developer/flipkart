@@ -11,59 +11,60 @@ import Top from './img/Top.jpg';
 import Beauty from './img/Beauty.png';
 import Two from './img/Two.png';
 import Card from '@mui/material/Card';
+
 const Header = () => {
   return (
     <>
-  <Card sx={{ minWidth: 275 }}>
+  <Card >
   <div className='header'>
         <div className='img'>
-          <img className='images' src={Grocery}  />
-          <h4>Grocery</h4>
+          <img className='images' src={Grocery} alt='grocery'/>
+          <div className='name'>Grocery</div>
         </div>
 
         <div className='img'>
-          <img className='images' src={Mobile} />
-          <h4>Mobiles</h4>
+          <img className='images' src={Mobile} alt='mobile'/>
+          <div className='name'>Mobiles</div>
         </div>
 
         <div className='img'>
-          <img className='images' src={Fashion} />
-          <h4>Fashion</h4>
+          <img className='images' src={Fashion} alt='fashion'/>
+          <div className='name'>Fashion</div>
         </div>
 
         <div className='img'>
-          <img className='images' src={Electronics} />
-          <h4>Electronics</h4>
+          <img className='images' src={Electronics} alt='electronics'/>
+          <div className='name'>Electronics</div>
         </div>
 
         <div className='img'>
-          <img className='images' src={home} />
-          <h4>Home</h4>
+          <img className='images' src={home} alt='home'/>
+          <div className='name'>Home</div>
         </div>
 
         <div className='img'>
-          <img className='images' src={Appliances} />
-          <h4>Appliances</h4>
+          <img className='images' src={Appliances} alt='appliances'/>
+          <div className='name'>Appliances</div>
         </div>
 
         <div className='img'>
-          <img className='images' src={Travel} />
-          <h4>Travel</h4>
+          <img className='images' src={Travel}  alt='travel'/>
+          <div className='name'>Travel</div>
         </div>
 
         <div className='img'>
-          <img className='images' src={Top} />
-          <h4>Top Offers</h4>
+          <img className='images' src={Top} alt='top'/>
+          <div className='name'>Top Offers</div>
         </div>
 
         <div className='img'>
-          <img className='images' src={Beauty} />
-          <h4>Beauty, Boys and More</h4>
+          <img className='images' src={Beauty} alt='beauty'/>
+          <div className='name'>Beauty,Toys & More</div>
         </div>
 
         <div className='img'>
-          <img className='images' src={Two} />
-          <h4>Two Whellers</h4>
+          <img className='images' src={Two} alt='two'/>
+          <div className='name'>Two Whellers</div>
         </div>
       </div>
       </Card>
