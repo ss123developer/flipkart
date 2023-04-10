@@ -15,7 +15,7 @@ function Footer() {
                         <div className='about-cnt'>
                             <div style={{ color: "gray", fontSize: "small", marginBottom: "5px" }}>ABOUT</div>
                             <div className='link-cnt'>
-                                <a className="anc-tag" href='contact'>Contact Us</a>
+                                <a className="anc-tag" href='contact us'>Contact Us</a>
                                 <a className="anc-tag" href='about'>About Us</a>
                                 <a className="anc-tag" href='career'>Careers</a>
                                 <a className="anc-tag" href='stories'>Flipkart Stories</a>
